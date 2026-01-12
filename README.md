@@ -8,7 +8,12 @@ This repository is intended to run either:
 
 **Usage** python3 'PyTerminal-Video.py' 'video.mp4' --color --audio
 
+**v1**
 <img width="1293" height="511" alt="image" src="https://github.com/user-attachments/assets/2c876b48-428c-45a2-bfcc-9ce6151b28a1" />
+
+**v2**
+<img width="1278" height="524" alt="image" src="https://github.com/user-attachments/assets/fca4e871-c6fd-46ec-b68b-317869a80b43" />
+Includes new features! Progress bar, navigation buttons, subtitles, greyscale, and PAUSE!
 
 ---
 
