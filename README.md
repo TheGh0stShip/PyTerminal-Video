@@ -25,3 +25,22 @@ This repository is intended to run either:
 Audio behavior:
 - `--audio` plays on the **machine running the script**.
 - If you run the script on a remote host over SSH, audio plays on the **remote host** (usually not useful). For local audio, run the script locally.
+
+## Install
+
+### Debian / Ubuntu / Kali
+`sudo apt-get update \
+  && sudo apt-get install -y python3 python3-pip ffmpeg \
+  && python3 -m pip install --upgrade pip \
+  && python3 -m pip install --upgrade numpy opencv-python-headless`
+
+### MacOS (Homebrew)
+`brew install python ffmpeg \
+  && python3 -m pip install --upgrade pip \
+  && python3 -m pip install --upgrade numpy opencv-python`
+
+### Windows PowerShell + Winget
+`winget install -e --id Python.Python.3.12
+winget install -e --id Gyan.FFmpeg
+py -m pip install --upgrade pip
+py -m pip install --upgrade numpy opencv-python`
