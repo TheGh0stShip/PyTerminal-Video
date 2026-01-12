@@ -4,7 +4,7 @@ Plays a video inside a terminal by converting each frame into ANSI-colored chara
 
 This repository is intended to run either:
 - **Locally** (Windows/macOS/Linux), or
-- **Remotely over SSH** on a **Kali Linux x64 host** (e.g., an Azure VM), streaming the rendered terminal output to your client (Windows Terminal, etc.)
+- **Remotely over SSH** on a **Linux x64 host** (e.g., an Azure VM), streaming the rendered terminal output to your client (Windows Terminal, etc.)
 
 **Usage** python3 'PyTerminal-Video' 'video.mp4' --color --audio
 
