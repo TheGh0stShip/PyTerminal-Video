@@ -24,4 +24,4 @@ This repository is intended to run either:
 
 Audio behavior:
 - `--audio` plays on the **machine running the script**.
-- If you run the script on a remote Kali VM over SSH, audio plays on the **remote VM** (usually not useful). For local audio, run the script locally.
+- If you run the script on a remote host over SSH, audio plays on the **remote host** (usually not useful). For local audio, run the script locally.
