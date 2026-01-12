@@ -6,7 +6,7 @@ This repository is intended to run either:
 - **Locally** (Windows/macOS/Linux), or
 - **Remotely over SSH** on a **Linux x64 host** (e.g., an Azure VM), streaming the rendered terminal output to your client (Windows Terminal, etc.)
 
-**Usage** python3 'PyTerminal-Video.py' 'video.mp4' --color --audio
+**Usage** python3 'PyTerminal-Video.py' 'video.mp4' --audio --audio-warmup 250
 
 **v1**
 <img width="1293" height="511" alt="image" src="https://github.com/user-attachments/assets/2c876b48-428c-45a2-bfcc-9ce6151b28a1" />
